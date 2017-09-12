@@ -1,2 +1,66 @@
+html {
+  font-size: 16px;
+  }
+
+h1, h2{
+  font-family: sans-serif;
+}
+
+header {
+  border-bottom-style: dotted;
+  border-bottom-color: red;
+  border-bottom-width: 20px;
+
+}
+
+/*class selectors*/
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border-style: double;
+}
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+/*id selectors*/
+
+#item1 {
+  font-size: 30px;
+}
+#item2 {
+  text-align: right;
+}
+
+/*advance selectors */
+#advanced-selectors li {
+  background-color: grey;
+  }
+
+#advanced-selectors ul li {
+  background-color: white;
+}
+
+#advanced-selectors li:nth-child(odd){
+  background-color: green;
+}
+
+#advanced-selectors ul li:nth-child(odd) {
+  background-color: white;
+}
+
+a[title="Bitmaker"] {
+  text-decoration: none;
+}
+
+
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
